@@ -20,7 +20,7 @@ If the table is not created the insert method will create it. Just enter the col
 Syntax
 ```
 $table = "table name";
-$values = ["" => "value1","row2" => "value2","row3" => "value3" ];
+$values = ["row1" => "value1","row2" => "value2","row3" => "value3" ];
 $base->insert($table,$values);
 ```
 Example
