@@ -2,13 +2,13 @@
 
 ## Easy to use
 
-A simple database for optimum data. It is intended for those who do not want to create tables and write queries and mysql.
+A simple database for optimum data. It is intended for those who do not want to create tables and write queries in mysql.
 
 ### Create and connect 
 
 Syntax
 ```
-$database = new Database([ base name ],[ username ],[ password ])
+$database = new Database([ database name ],[ username ],[ password ])
 ```
 Example
 ```
